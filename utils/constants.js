@@ -13,6 +13,10 @@ class Constants {
         return 'http://localhost:5000/api/task'
     }
 
+    static URL_CLOUD_SERVICE(){
+        return '35.226.108.174:5000/api/task'
+    }
+
     static AUTHENTICATION_TOKEN(){
         return 'Bearer '
     }

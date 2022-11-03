@@ -42,7 +42,7 @@ export default function main() {
         }
     }
 
-    const helper = new Scenario1Helper(Constants.URL_SERVICE(),datacsv,params)
+    const helper = new Scenario1Helper(Constants.URL_CLOUD_SERVICE(),datacsv,params)
     helper.sendTask('ogg')
 
 }
