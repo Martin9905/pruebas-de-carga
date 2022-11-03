@@ -35,7 +35,7 @@ export default function main() {
         }
     }
 
-    const helper = new Scenario2Helper(Constants.URL_SERVICE(),params)
+    const helper = new Scenario2Helper(Constants.URL_CLOUD_SERVICE(),params)
     helper.sendTasks('song.mp3', 'ogg')
 
 }
